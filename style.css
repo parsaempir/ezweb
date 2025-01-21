@@ -47,6 +47,8 @@ position: relative;
 left: 40px;
 
 }
+.but:hover{
+}
 .logo-veb{
     position: relative;
     right: 20px;
@@ -79,7 +81,33 @@ align-items: center;
     top: 15px;
     font-family: 'CustomFont';
 }
-
+.link:hover{
+    color: #3982fb;
+}
+.dropdown:hover{
+    color: #3982fb;
+}
+.dropdown:hover .dropdown-items {
+    color: initial; 
+  }
+  .dropdown-one:hover{
+    color: #3982fb;
+}
+.dropdown-one:hover .dropdown-items-one {
+    color: initial; 
+  }
+  .dropdown-two:hover{
+    color: #3982fb;
+}
+.dropdown-two:hover .dropdown-items-two {
+    color: initial; 
+  }
+  .dropdown-three:hover{
+    color: #3982fb;
+}
+.dropdown-three:hover .dropdown-items-three {
+    color: initial; 
+  }
 .dropdown {
     position: relative;
     display: inline-block;
@@ -108,18 +136,22 @@ justify-content: end;
   .dropdown-img{
     position: relative;
     top: 4px;
+    transition: transform 0.5s ease;
   }
   .dropdown-img-one{
     position: relative;
     top: 4px;
+    transition: transform 0.5s ease;
   }
   .dropdown-img-two{
     position: relative;
     top: 4px;
+    transition: transform 0.5s ease;
   }
   .dropdown-img-three{
     position: relative;
     top: 4px;
+    transition: transform 0.5s ease;
   }
   .dropdown-items p:hover {
     color:  #3982fb ;
