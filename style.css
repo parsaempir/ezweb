@@ -1,0 +1,229 @@
+
+/*body{
+    font: 1.2rem  "Fira Sana" "sans-serif";
+
+}*/
+body{
+    font-family: 'CustomFont';
+
+}
+@font-face {
+    font-family: 'CustomFont'; 
+    src: url('./BYekan+.ttf') format('woff2'),
+         url('./BYekan+.ttf') format('woff'),;
+    font-weight: normal; 
+    font-style: normal; 
+}
+
+
+
+nav{
+    width: 100%;
+    margin: auto;
+    max-width: 1300px;
+display: flex;
+background-color: #f0f6ff;
+height: 80px;
+align-items: center;
+border-radius: 8px;
+justify-content: end;
+gap: 2rem;
+}
+.phone{
+color: #061257;
+font-family: 'CustomFont';
+
+}
+
+ .but{
+background-color: #0a65fc;
+border: none;
+padding: 9 33;
+color: white;
+border-radius: 8px;
+font-size: 16px;
+font-family: 'CustomFont';
+position: relative;
+left: 40px;
+
+}
+.logo-veb{
+    position: relative;
+    right: 20px;
+}
+.number:hover{
+color: #3982fb ;
+
+}
+.number{
+    font-weight: 900;
+    font-family: 'CustomFont';
+
+}
+.number-phone{
+    display: flex;
+margin-right: 210px;
+gap: 10px;
+align-items: center;
+
+}
+.text-nav{
+    display: flex;
+    gap: 15px;
+}
+.text-nav a{
+    text-decoration: none;
+    color: #061257;
+    height: 50px;
+    position: relative;
+    top: 15px;
+    font-family: 'CustomFont';
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+ }
+.dropdown-items {
+    display: none; 
+    position: absolute;
+right: 5px;
+    top: 50px;
+border-radius: 8px;
+   background-color: #f0f6ff;
+    padding: 10px;
+    z-index: 10;
+    width: 230px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .dropdown-items p {
+    margin: 0;
+    padding: 8px;
+    background-color:#f0f6ff;
+    cursor: pointer;
+display: flex;
+justify-content: end;
+  }
+  .dropdown-img{
+    position: relative;
+    top: 4px;
+  }
+  .dropdown-img-one{
+    position: relative;
+    top: 4px;
+  }
+  .dropdown-img-two{
+    position: relative;
+    top: 4px;
+  }
+  .dropdown-img-three{
+    position: relative;
+    top: 4px;
+  }
+  .dropdown-items p:hover {
+    color:  #3982fb ;
+  }
+  .dropdown:hover .dropdown-img {
+    transform: rotate(180deg);
+  }
+
+  .dropdown-one {
+    position: relative;
+    display: inline-block;
+
+  }
+.dropdown-items-one {
+    display: none; 
+    position: absolute;
+right: 5px;
+top: 50px;
+border-radius: 8px;
+   background-color: #f0f6ff;
+    padding: 10px;
+    z-index: 10;
+    width: 230px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .dropdown-items-one p {
+    margin: 0;
+    padding: 8px;
+    background-color:#f0f6ff;
+    cursor: pointer;
+display: flex;
+justify-content: end;
+  }
+  
+  .dropdown-items-one p:hover {
+    color:  #3982fb ;
+  }
+  .dropdown-one:hover .dropdown-img-one {
+    transform: rotate(180deg);
+  }
+  .dropdown-two {
+    position: relative;
+    display: inline-block;
+
+  }
+.dropdown-items-two {
+    display: none; 
+    position: absolute;
+right: 5px;
+top: 50px;
+border-radius: 8px;
+   background-color: #f0f6ff;
+    padding: 10px;
+    z-index: 10;
+    width: 230px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .dropdown-items-two p {
+    margin: 0;
+    padding: 8px;
+    background-color:#f0f6ff;
+    cursor: pointer;
+display: flex;
+justify-content: end;
+  }
+  
+  .dropdown-items-two p:hover {
+    color:  #3982fb ;
+  }
+  .dropdown-two:hover .dropdown-img-one {
+    transform: rotate(180deg);
+  }
+  .dropdown-three {
+    position: relative;
+    display: inline-block;
+
+  }
+.dropdown-items-three {
+    display: none; 
+    position: absolute;
+right: 5px;
+top: 50px;
+border-radius: 8px;
+   background-color: #f0f6ff;
+    padding: 10px;
+    z-index: 10;
+    width: 230px;
+ box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .dropdown-items-three p {
+    margin: 0;
+    padding: 8px;
+    background-color:#f0f6ff;
+    cursor: pointer;
+display: flex;
+justify-content: end;
+  }
+  
+  .dropdown-items-three p:hover {
+    color:  #3982fb ;
+  }
+  .dropdown-three:hover .dropdown-img-one {
+    transform: rotate(180deg);
+  }
