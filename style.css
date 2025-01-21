@@ -48,6 +48,8 @@ left: 40px;
 
 }
 .but:hover{
+    background-color: #5798ed;
+  
 }
 .logo-veb{
     position: relative;
@@ -80,6 +82,7 @@ align-items: center;
     position: relative;
     top: 15px;
     font-family: 'CustomFont';
+    transform: scaleX(0.9);
 }
 .link:hover{
     color: #3982fb;
@@ -223,7 +226,7 @@ justify-content: end;
   .dropdown-items-two p:hover {
     color:  #3982fb ;
   }
-  .dropdown-two:hover .dropdown-img-one {
+  .dropdown-two:hover .dropdown-img-two {
     transform: rotate(180deg);
   }
   .dropdown-three {
@@ -256,6 +259,6 @@ justify-content: end;
   .dropdown-items-three p:hover {
     color:  #3982fb ;
   }
-  .dropdown-three:hover .dropdown-img-one {
+  .dropdown-three:hover .dropdown-img-three {
     transform: rotate(180deg);
   }
